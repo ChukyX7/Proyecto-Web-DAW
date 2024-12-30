@@ -1,0 +1,131 @@
+body{
+    background-color: seashell;
+}
+
+#menú{
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.main{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -2%;
+}
+
+h2{
+    font-family: "Gloria Hallelujah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+h1{
+    font-family: "Bungee Tint", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+span{
+    font-family: "Bungee Spice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.containers{
+    display: inline-block;
+    width: 45%;
+}
+
+#container1{
+    float: left;
+}
+
+#container1>img{
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0px 20px 10px 0px; 
+}
+
+#container2{
+    float: right;
+}
+
+#container2>img{
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0px 20px 10px 0px; 
+}
+
+h4{
+    font-family: "Chewy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p{
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+footer {
+    text-align: right;
+    clear: both;
+    padding-top: 120px;
+}
+
+@media(max-width: 680px){
+    #menú{
+        width: 40px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    span{
+        font-size: 50px;
+    }
+
+    .containers {
+        display: block;
+        width: 100%;
+    }
+
+    #container1{
+        margin-bottom: 80px;
+    }
+
+    #container1>img{
+        float: none;
+        width: 100%;
+    }
+
+    #container2>img{
+        float: none;
+        width: 100%;
+    }
+
+    footer {
+        text-align: right;
+        clear: both;
+        font-size: 12px;
+    }
+  }

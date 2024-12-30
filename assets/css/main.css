@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(91, 174, 200);
+}
+
+.linksContainer{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.links{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 5px;
+    padding: 18px 0px 0px 0px;
+    width: 200px;
+    height: 50px;
+    border: 5px outset red;
+    border-radius: 3%;
+    background-color: rgb(219, 156, 20);
+}
+
+#nom{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+#profileImg{
+    width: 33.33%;
+    margin-left: 33.33%;
+    border-radius: 100%;
+    border: 5px inset goldenrod;
+}
+
+.profile{
+    width: 50%;
+    margin-left: 25%;
+}
+
