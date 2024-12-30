@@ -44,3 +44,31 @@ body{
     margin-left: 25%;
 }
 
+#nadal{
+    width: 200px;
+    margin-top: -40px;
+}
+
+#gorraNadal{
+    width: 100%;
+    margin-left: 25%;
+}
+
+audio{
+    background-color: rgb(238, 27, 27);
+    border: 15px inset red;
+    border-radius: 100%;
+    padding: 12px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+h3{
+    width: 100%;
+    margin-left: 25%;
+    font-family: "Lavishly Yours", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: -5px;
+}
