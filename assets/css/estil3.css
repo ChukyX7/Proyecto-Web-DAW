@@ -1,1 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+#container{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}   
+
+.plans{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 20px;
+}
 
